@@ -1,8 +1,10 @@
-
+# Author: ATN 4/27/22
 
 # Imports
 from string import ascii_uppercase
 
+original_file = open('alma_mater.txt')
+line = original_file.readline().strip()
 
 # Functions
 def cipher_key(shift):
@@ -20,7 +22,7 @@ def shift_line(line, dict_key):
 
 def encrypt_message(filename, dict_key):
     # Add code here
-
+    pass
 
 # Main
 user_file = input("Please enter a file to be encrypted: ")
